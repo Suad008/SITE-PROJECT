@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact us</title>
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        src="https://ci4.googleusercontent.com/proxy/Xrv57xdYilIEfz9CDX4GGRCYDsaEFOb-GZKMEcvG4BmrXxGHRAHqTNkF343J0bW2r-wyPP3hrm0QprtSev3X9jmDLci5wFJCtPM77rn9AXdaY4_4wK82VeQWedTrSCdK_RgwR-luIttcCHvY37ZqI5-PiQqI5x-yNlhzh9fVsrNPyyRHGvcyhfEjMK5MMGWYI0QikCIt270Dyk7qww4ANBGJIA=s0-d-e1-ft#https://dynamic.brandcrowd.com/preview/logodraft/6d98d34f-0721-45a7-b730-61b895744d5e/image/large.png?bust=d83319a7-e279-4d3b-95f0-0dcf04a94a24"
+      />
+      <nav class="menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li>
+            <a href="#">Posts</a>
+            <nav class="post-list">
+              <ul>
+                <li><a href="post1.html">Post1</a></li>
+                <li><a href="post2.html">Post2</a></li>
+                <li><a href="post3.html">Post3</a></li>
+                <li><a href="post4.html">Post4</a></li>
+                <li><a href="post5.html">Post5</a></li>
+              </ul>
+            </nav>
+          </li>
+          <li><a href="about me.html">About us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="contact">
+      <form>
+        <div>
+          <label>Name*</label>
+          <input type="text" required />
+        </div>
+        <div>
+          <label>Email</label>
+          <input type="email" />
+        </div>
+        <div>
+          <label>Password</label>
+          <input type="password" />
+          <div>
+            <label>Phone*</label>
+            <input type="tel" required />
+          </div>
+          <div>
+            <label>Age</label>
+            <input type="number" min="1" max="200" />
+          </div>
+          <div>
+            <label>Birthdate</label>
+            <input type="date" />
+          </div>
+          <div>
+            <label>Male</label>
+            <input type="radio" value="Male" name="gender" />
+          </div>
+          <div>
+            <label>Female</label>
+            <input type="radio" value="Female" name="gender" />
+          </div>
+          <div>
+            <label>Country</label>
+            <select>
+              <option value="az">Azerbailan</option>
+              <option value="uk">United Kingdom</option>
+              <option value="kaz">Kazakhstan</option>
+            </select>
+            <div>
+              <label>Favourite Color</label>
+              <input type="color" />
+            </div>
+            <div>
+              <label>Upload</label>
+              <input type="file" />
+            </div>
+            <div>
+              <label>Message</label>
+              <textarea></textarea>
+            </div>
+            <div>
+              <label>I accept </label>
+              <input type="checkbox" />
+            </div>
+            <button type="submit">Submit</button>
+          </div>
+        </div>
+      </form>
+      <iframe
+        id="map"
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12154.243167570734!2d49.8438642!3d40.3964259!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d56570e39ad%3A0xe6da54cd281f7be!2s101%20Cars!5e0!3m2!1sru!2saz!4v1697117979128!5m2!1sru!2saz"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </main>
+    <footer>
+      <p>&copy; 2023 car news</p>
+    </footer>
+  </body>
+</html>

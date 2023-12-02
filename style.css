@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #374353;
+  text-align: center;
+  padding: 5px;
+}
+
+header img {
+  width: 200px;
+  height: 100%;
+}
+.row1 {
+  display: flex;
+  margin-bottom: 20px;
+}
+.col {
+  width: 33.4%;
+  height: 500px;
+}
+.col img {
+  width: 100%;
+  height: 100%;
+}
+main {
+  padding: 20px;
+  background-color: #ffffff;
+}
+.card {
+  width: 100%;
+  border: 1px solid #000;
+  background-color: #ffffff;
+  border-radius: 5px;
+  color: #374353;
+  display: flex;
+  margin-top: 10px;
+}
+
+.card img {
+  width: 200px;
+}
+
+footer {
+  background-color: #374353;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+}
+
+a {
+  background-color: #27303c;
+  color: #fdfdfd;
+  padding: 5px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.animation:hover {
+  transform: scale(1.5, 1.5);
+  transition: transform 2s;
+}
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+.menu ul li {
+  display: inline;
+  margin: 0 20px;
+  position: relative;
+}
+.menu:hover ul {
+  transform: scale(1.5, 1.5);
+  transition: transform 4s;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.menu ul li .post-list {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  padding: 10px 20px;
+  width: 45px;
+}
+.menu ul li:hover .post-list {
+  display: block;
+  background-color: #000000;
+}
+.menu ul li .post-list ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.menu ul li .post-list ul li {
+  margin: 5px 0;
+}
+
+.menu ul li .post-list ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  .row {
+    display: block;
+  }
+}

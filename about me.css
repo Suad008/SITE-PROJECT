@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #374353;
+  text-align: center;
+  padding: 5px;
+}
+
+header img {
+  width: 200px;
+  height: 100%;
+}
+main {
+  background-color: #ffffff;
+  padding: 50px;
+}
+
+.card {
+  width: 100%;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  border-radius: 5px;
+  color: #374353;
+  display: inline-flex;
+}
+.card img {
+  width: 300px;
+  height: 400px;
+  padding-right: 50px;
+}
+
+a {
+  background-color: #27303c;
+  color: #ffffff;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+footer {
+  background-color: #374353;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+.menu ul li {
+  display: inline;
+  margin: 0 20px;
+  position: relative;
+  transform: scale(1.5, 1.5);
+  transition: transform 2s;
+}
+.menu ul li:hover a {
+  transform: rotate(360deg);
+  transition: transform 2s;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.menu ul li .post-list {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  padding: 10px 20px;
+  width: 45px;
+}
+.menu ul li:hover .post-list {
+  display: block;
+  background-color: #000;
+}
+.menu ul li .post-list ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.menu ul li .post-list ul li {
+  margin: 5px 0;
+}
+
+.menu ul li .post-list ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+@media screen and (max-width: 800px) {
+  .card {
+    display: block;
+    padding-right: 200px;
+    width: 40%;
+  }
+  .card img {
+    width: 200px;
+    height: 300px;
+  }
+}
